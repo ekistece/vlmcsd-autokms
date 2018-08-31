@@ -1,6 +1,6 @@
 # vlmcsd-autokms
 
-Doownload from [here!](https://github.com/ekistece/vlmcsd-autokms/releases)
+Download it from [here!](https://github.com/ekistece/vlmcsd-autokms/releases)
 
 Script to automate the installation of [vlmcsd](https://github.com/Wind4/vlmcsd) as a service. Uses the TAP driver from [OpenVPN](https://openvpn.net/index.php/open-source/downloads.html) to fake an external server. Useful for activating Windows locally :)
 
