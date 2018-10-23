@@ -1,5 +1,6 @@
 @echo off
-cd %~dp0
+set parent=%~dp0
+pushd %parent%
 echo Installing TAP driver...
 bin\tap-windows-installer.exe
 echo Installing now the KMS server service...
@@ -16,6 +17,7 @@ echo Setting up KMS address...
 slmgr /skms 10.10.10.10
 echo Sending activation request...
 slmgr /ato
+popd
 echo All done! Press enter to exit.
 pause > nul
 exit
